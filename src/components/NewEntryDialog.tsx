@@ -21,7 +21,7 @@ const schema = z.object({
   }),
 });
 
-function NewEntryDialog(props: NewEntryDialogProps): React.ReactElement {
+function NewEntryDialog(props: NewEntryDialogProps) {
   type FormData = z.infer<typeof schema>;
 
   const {
