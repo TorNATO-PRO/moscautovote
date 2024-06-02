@@ -71,7 +71,6 @@ function NewEntryDialog(props: NewEntryDialogProps): React.ReactElement {
           helperText={errors.owner?.message}
         />
         <TextField
-          autoFocus
           required
           margin="normal"
           id="year"
@@ -83,7 +82,6 @@ function NewEntryDialog(props: NewEntryDialogProps): React.ReactElement {
           helperText={errors.year?.message}
         />
         <TextField
-          autoFocus
           required
           margin="normal"
           id="make"
@@ -95,7 +93,6 @@ function NewEntryDialog(props: NewEntryDialogProps): React.ReactElement {
           helperText={errors.make?.message}
         />
         <TextField
-          autoFocus
           required
           margin="normal"
           id="model"
@@ -107,7 +104,6 @@ function NewEntryDialog(props: NewEntryDialogProps): React.ReactElement {
           helperText={errors.model?.message}
         />
         <TextField
-          autoFocus
           required
           margin="normal"
           id="category"
@@ -119,7 +115,6 @@ function NewEntryDialog(props: NewEntryDialogProps): React.ReactElement {
           helperText={errors.category?.message}
         />
         <TextField
-          autoFocus
           required
           margin="normal"
           id="votes"
