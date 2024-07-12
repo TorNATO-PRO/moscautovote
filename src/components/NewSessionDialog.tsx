@@ -15,7 +15,7 @@ function NewSessionDialog(props: NewSessionDialogProps) {
       <DialogContent>
         <DialogContentText>
           To enable voting, you must first specify an
-          event to vote for (i.e. People's Choice, Classic Cars).
+          event (MoscAutoFest 2024, MoscAutoFest 2025, etc...).
         </DialogContentText>
         <TextField
           autoFocus
